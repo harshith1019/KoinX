@@ -1,5 +1,3 @@
-import React from "react";
-
 const OverviewTab = () => {
   return (
     <div className="bg-white my-4">

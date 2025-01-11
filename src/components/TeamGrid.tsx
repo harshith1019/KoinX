@@ -1,4 +1,3 @@
-import React from "react";
 import TeamMember from "./TeamMember";
 import Johnsmith from "../assets/john_smith.jpg";
 import Elinawilliams from "../assets/elina_williams.jpg";

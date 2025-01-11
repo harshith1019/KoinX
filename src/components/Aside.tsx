@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import Trending from "./Trending";
 const Aside = () => {

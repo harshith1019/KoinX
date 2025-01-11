@@ -1,7 +1,3 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
 import Slider from "./Slider";
 
 const Footer = () => {

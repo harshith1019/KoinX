@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CardComponent from "./CardComponent";
 import newspaper from "../../assets/newspaper.svg";
 

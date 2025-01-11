@@ -1,4 +1,3 @@
-import React from "react";
 import TradingViewWidget from "./TradingViewWidget";
 import Tabs from "./Tabs";
 import OverviewTab from "./OverviewTab";

@@ -1,8 +1,6 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
 import Aside from "./components/Aside";
-import Footer from "./components/Footer/Footer";
 import BreadCrumb from "./BreadCrumb";
 
 function App() {

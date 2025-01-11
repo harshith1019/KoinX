@@ -1,4 +1,3 @@
-import React from "react";
 import Cardsvg from "./Card/Cardsvg";
 
 const Card = () => {
