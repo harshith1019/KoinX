@@ -1,5 +1,3 @@
-import React from "react";
-
 const BreadCrumb = () => {
   return (
     <nav aria-label="breadcrumb">
