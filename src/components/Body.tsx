@@ -10,7 +10,7 @@ import Footer from "./Footer/Footer";
 
 const Body = () => {
   return (
-    <div className="col-lg-8 me-lg-3 bg-body-tertiary">
+    <div className="col-lg-8 me-lg-3">
       <TradingViewWidget />
       <Tabs />
       <OverviewTab />

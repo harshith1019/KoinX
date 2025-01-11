@@ -21,7 +21,7 @@ function TradingViewWidget() {
                 ],
                 "chartOnly": false,
                 "width": "100%",
-                "height": "100%",
+                "height": "15%",
                 "locale": "en",
                 "colorTheme": "light",
                 "autosize": true,
@@ -58,23 +58,14 @@ function TradingViewWidget() {
   }, []);
 
   return (
-    <div className="container w-100 h-25">
-      <div
-        className="tradingview-widget-container"
-        ref={container}
-        style={{
-          width: "100%",
-          height: "100%",
-        }}
-      >
-        <div className="tradingview-widget-container__widget"></div>
-        <div className="tradingview-widget-copyright">
-          <a
-            href="https://www.tradingview.com/"
-            rel="noopener nofollow"
-            target="_blank"
-          ></a>
-        </div>
+    <div className="tradingview-widget-container" ref={container}>
+      <div className="tradingview-widget-container__widget"></div>
+      <div className="tradingview-widget-copyright">
+        <a
+          href="https://www.tradingview.com/"
+          rel="noopener nofollow"
+          target="_blank"
+        ></a>
       </div>
     </div>
   );
