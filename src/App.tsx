@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-body-tertiary">
       <Navbar />
-      <div className="container my-5 d-lg-flex">
+      <div className="container my-2 d-lg-flex">
         <Body />
         <Aside />
       </div>
