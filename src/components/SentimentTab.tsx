@@ -1,15 +1,19 @@
 import React from "react";
-import Carousel from "./CardSlider";
+import Carousel from "./Card/CardSlider";
+import AnalystEstimates from "./AnalystEstimates/AnalystEstimates";
 
 const SentimentTab = () => {
   return (
-    <div className="bg-white my-4 rounded">
-      <h2 className="p-2">Sentiment</h2>
-      <h4 className="p-2">Key Events</h4>
+    <div className="bg-white my-4 rounded container p-3" id="sentiments">
+      <h2>Sentiment</h2>
+      <h4 className="py-4">Key Events</h4>
       <div className="container">
         <Carousel />
       </div>
-      <h4 className="p-2">Analyst Estimates</h4>
+      <h4 className="py-4" id="insights">
+        Analyst Estimates
+      </h4>
+      <AnalystEstimates buy={76} sell={8} hold={16} />
     </div>
   );
 };

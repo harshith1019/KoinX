@@ -8,11 +8,11 @@ const Tabs = () => {
   const tabs = [
     { name: "Overview", href: "#" },
     { name: "Fundamentals", href: "#fundamentals" },
-    { name: "News Insights", href: "#" },
-    { name: "Sentiments", href: "#" },
-    { name: "Team", href: "#" },
+    { name: "News Insights", href: "#insights" },
+    { name: "Sentiments", href: "#sentiments" },
+    { name: "Team", href: "#team" },
     { name: "Technicals", href: "#" },
-    { name: "Tokenomics", href: "#" },
+    { name: "Tokenomics", href: "#tokenomics" },
   ];
 
   const handleScroll = (direction: "left" | "right") => {

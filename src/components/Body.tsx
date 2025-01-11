@@ -9,7 +9,7 @@ import TeamTab from "./TeamTab";
 
 const Body = () => {
   return (
-    <div className="col-lg-8 me-lg-3">
+    <div className="col-lg-8 me-lg-3 bg-body-tertiary">
       <TradingViewWidget />
       <Tabs />
       <OverviewTab />

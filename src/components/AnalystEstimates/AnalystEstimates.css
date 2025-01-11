@@ -1,0 +1,34 @@
+.analyst-estimates-container {
+  display: flex;
+  align-items: center;
+}
+
+.circular-indicator {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--bs-success) calc(var(--percentage, 0) * 1%),
+    #e9ecef calc(var(--percentage, 0) * 1%)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentage {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--bs-success);
+}

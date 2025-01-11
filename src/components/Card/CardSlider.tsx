@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CardComponent from "./CardComponent";
-import newspaper from "../assets/newspaper.svg";
+import newspaper from "../../assets/newspaper.svg";
 
 const CardSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

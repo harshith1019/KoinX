@@ -15,7 +15,7 @@ const CardComponent = ({ icon, title, description }: Props) => {
           <img
             src={icon} // Dynamically render the passed icon
             alt="Icon"
-            className="icon"
+            className="icon border-0"
           />
         </div>
       </div>
