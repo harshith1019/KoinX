@@ -54,15 +54,15 @@ const Trending = () => {
                 {coin.name} ({coin.symbol.toUpperCase()})
               </span>
             </div>
-            <div className="text-center bg-body-tertiary p-1 rounded">
+            <div className="text-center p-0 rounded">
               {coin.data.price_change_percentage_24h.usd >= 0 ? (
-                <span className="text-success d-flex align-items-center">
-                  <i className="bi bi-arrow-up me-1"></i>
+                <span className="text-success bg-success-subtle rounded p-1 d-flex align-items-center">
+                  <i className="bi bi-caret-up-fill me-1"></i>
                   {coin.data.price_change_percentage_24h.usd.toFixed(2)}%
                 </span>
               ) : (
-                <span className="text-danger d-flex align-items-center">
-                  <i className="bi bi-arrow-down me-1"></i>
+                <span className="text-danger bg-danger-subtle rounded p-1 d-flex align-items-center">
+                  <i className="bi bi-caret-down-fill me-1"></i>
                   {Math.abs(coin.data.price_change_percentage_24h.usd).toFixed(
                     2
                   )}
