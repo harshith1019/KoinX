@@ -54,7 +54,7 @@ const CardSlider = () => {
           style={{ position: "absolute", left: "-10px", zIndex: 10 }}
         >
           <i
-            className="bi bi-arrow-left"
+            className="bi bi-chevron-left bg-white rounded-circle p-2"
             style={{ fontSize: "20px", marginRight: "5px" }}
           ></i>
         </button>
@@ -102,7 +102,7 @@ const CardSlider = () => {
           style={{ position: "absolute", right: "-10px", zIndex: 10 }}
         >
           <i
-            className="bi bi-arrow-right"
+            className="bi bi-chevron-right bg-white rounded-circle p-2"
             style={{ fontSize: "20px", marginLeft: "5px" }}
           ></i>
         </button>

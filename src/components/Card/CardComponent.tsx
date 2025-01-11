@@ -9,7 +9,7 @@ interface Props {
 
 const CardComponent = ({ icon, title, description }: Props) => {
   return (
-    <div className="card-container">
+    <div className="card-container bg-primary-subtle">
       <div className="icon-section">
         <div className="icon-circle">
           <img

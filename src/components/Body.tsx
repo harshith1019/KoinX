@@ -6,6 +6,7 @@ import SentimentTab from "./SentimentTab";
 import AboutTab from "./AboutTab";
 import TokenomicsTab from "./TokenomicsTab";
 import TeamTab from "./TeamTab";
+import Footer from "./Footer/Footer";
 
 const Body = () => {
   return (
@@ -17,6 +18,7 @@ const Body = () => {
       <AboutTab />
       <TokenomicsTab />
       <TeamTab />
+      <Footer />
     </div>
   );
 };

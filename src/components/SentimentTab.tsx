@@ -6,7 +6,7 @@ const SentimentTab = () => {
   return (
     <div className="bg-white my-4 rounded container p-3" id="sentiments">
       <h2>Sentiment</h2>
-      <h4 className="py-4">Key Events</h4>
+      <h4 className="pt-4">Key Events</h4>
       <div className="container">
         <Carousel />
       </div>
