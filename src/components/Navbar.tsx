@@ -1,11 +1,12 @@
 import React from "react";
+import Icon from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-white">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          <img src={Icon} alt="logo" />
         </a>
         <button
           className="navbar-toggler"
