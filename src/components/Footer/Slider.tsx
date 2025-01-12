@@ -108,13 +108,13 @@ const Slider = () => {
       </div>
       <button
         onClick={prevSlide}
+        className="rounded-circle p-2 bg-body-tertiary fw-bold"
         style={{
           position: "absolute",
           top: "50%",
-          left: "10px",
+          left: "1px",
           transform: "translateY(-50%)",
-          background: "rgba(0,0,0,0.5)",
-          color: "white",
+          color: "black",
           border: "none",
           padding: "0.5rem",
         }}
@@ -123,13 +123,14 @@ const Slider = () => {
       </button>
       <button
         onClick={nextSlide}
+        className="rounded-circle p-2 bg-body-tertiary fw-bold"
         style={{
           position: "absolute",
           top: "50%",
-          right: "10px",
+          right: "1px",
           transform: "translateY(-50%)",
           background: "rgba(0,0,0,0.5)",
-          color: "white",
+          color: "black",
           border: "none",
           padding: "0.5rem",
         }}
